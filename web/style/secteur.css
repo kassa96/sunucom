@@ -1,0 +1,105 @@
+body{
+	background-color: #e8eaed;
+	color: #202124;
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+}
+.btn{
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;     
+}
+@media (min-width: 768px)
+{
+#search{
+   width: 200px;
+   text-align: center;
+}
+}
+footer{
+    margin-top: 250px;
+    background: #222222;
+    color: #fff;
+}
+
+form{
+    padding-bottom: 30px;
+}
+
+#panel-info h4{
+    padding: 5px;
+    text-align: center;
+}
+#panel-error{
+}
+
+@media screen and (min-width: 768px)
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 1px;
+    padding-left: 1px;
+    }
+    .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 5px;
+    border-radius: 0px;
+}
+.liste_secteur{
+	box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 15px;
+    list-style-type: none;
+}
+.secteur_item{
+    margin-top: 5px;
+    height: 130px;
+	width: 240px;
+	margin: 5px;
+	box-sizing: border-box;
+    color: rgba(0,0,0,.92);
+    margin-bottom: 5px;
+}
+.secteur_link{
+    height: 100%;
+	border-bottom: 2px solid #4a148c;
+	display: block;
+	background-color: #fff;
+    margin-bottom: 2px;
+}
+.secteur_name{
+    color:  #4a148c;
+    font-size: 20px;
+    padding: 16px 16px 0;
+}
+.nbre_article{
+	padding: 5px 10px;
+	color: #aaa;
+    font-size: 13px;
+    text-align: right;
+}
+.voir_div{
+padding: 10px;
+}
+.voir{
+    color: #fff;
+    font-family: Roboto,Noto,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 13px 25px;
+    background-color: #4a148c;
+    border-radius: 3px!important;
+}
+.secteur_link:hover{
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,.26), 0 10px 20px 0 rgba(0,0,0,.19);
+    color: rgba(0,0,0,.92);
+    text-decoration: none;
+}

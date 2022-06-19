@@ -1,0 +1,364 @@
+body {
+   background-color: #e8eaed;
+    padding-top: 55px;
+    color: #202124;
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+}
+footer{
+	margin-top: 250px;
+}
+[class*="col-"] {
+  padding-left: 5px;
+	padding-right: 0px;
+}
+.btn {
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+}
+#photo-label{
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    font-family: Roboto,Noto,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 1;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    text-transform: none;
+    display: inline-block;
+    background-color: #4285f4;
+    border-radius: 3px!important;
+    margin: 5px;
+}
+#photo-label:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #286090;
+    border-color: #204d74;
+}
+.theme{
+	display: block;
+	background: #0277bd;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 5px;
+	padding-left: 15px;
+	border-radius: 5px;
+	font-weight: 400;
+	color: #fff;
+}
+.theme a{
+	font-size: 13px;
+    color: #fff;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+.blog_title{
+	height: 115px;
+}
+.blog_div{
+	padding-bottom: 7px;
+}
+.btn-lecteur{
+	margin-top: 5px;
+	color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+#panel-inscription{
+	padding-bottom: 50px;
+}
+#erreur-inscription{
+	padding: 2px;
+	margin: 5px;
+}
+form{
+	padding-bottom: 30px;
+}
+.inscription{
+	padding-left: 5px;
+}
+.genre{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#masculin,#feminim{    
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px soli #ccc;
+    border-radius: 4px;
+}
+fieldset{
+    margin-top: 1em;
+    border-radius: 4px 4px 0 0;
+    border: #aaa solid 1px;
+    padding: 1.5em;
+    background: #eee;
+    text-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+ legend {
+ 	margin-bottom: 1px;
+ 	width: auto;
+    font-weight: bold;
+    color: #444;
+    padding: 5px 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    -moz-box-shadow: 3px 3px 15px #bbb;
+    -webkit-box-shadow: 3px 3px 15px #bbb;
+    box-shadow: 3px 3px 15px #bbb;
+    max-width: 100%;
+}
+
+#panel-info h4{
+	padding: 5px;
+	text-align: center;
+}
+#panel-error{
+}
+.blog_link{
+
+	height: 260px;
+	border-radius: 8px;
+    display: block;
+    background: #eee;
+    border: 2px solid #eee;
+    color: #333;
+   text-decoration: none; 
+}
+.blog_link:hover{
+   color: #fff;
+   text-decoration: none; 
+   background: #0277bd;
+   border: 2px solid #0277bd;
+    
+}
+.blog_img{
+	width: 100%;
+	height: 100px;
+
+}
+.blog_title{
+	display: block;
+	padding: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 18px;
+    font-weight: 800;
+    font-family: "taz,Verdana,sans-serif"
+}
+.auteur{
+	color: #777;
+}
+.auteur:hover{
+	color: #fff;
+}
+.btn-lecteur{
+	background: #0277bd;
+
+}
+.label-lecteur{
+	padding-left: 5px;
+}
+.metier{
+	display: block;
+	padding-left: 15px;
+}
+footer{
+	background: #222222;
+	color: #fff;
+}
+<!-article style->
+
+.liste_div{
+	padding-left: 0px;
+}
+.div_row{
+	margin-right: 0px; 
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+.liste_img{
+	width: 150px;
+	height: 100px;
+}
+.well_color{
+	background-color:#CCC;
+  padding-left: 0px;
+  height: 100%;
+}
+.article_div{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.item_article{
+	margin: 2px;
+	margin-bottom: 5px;
+	padding: 0px;
+	padding-top: 10px;
+}
+
+.article_img{
+	width: 100%;
+	max-height: 400px;
+}
+.titre_article{
+	padding-left: 15px;
+	padding-right: 5px;
+}
+.contenu{
+	padding-left: 5px;
+	padding-bottom: 15px;
+	font-size: 16px;
+}
+#nbre_lecteur{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.comment{
+	padding: 15px;
+}
+.image_user_comment{
+	width: 60px;
+	height: 30px;
+}
+.comment{
+	background: #fff;
+	    margin-top: 15px;
+}
+.comment li{
+	margin: 0px;
+	padding:0px;
+	border:  0px solid #ddd;
+     border-radius: 0px; 
+     padding-bottom: 10px;
+}
+<!-article style->
+em{
+	padding: 1px;
+
+}
+.user_div{
+	padding: 0px;
+	color: #533; 
+  background-color: #9bb ;
+}
+@media screen and (min-width: 768px)
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 1px;
+    padding-left: 1px;
+    }
+    .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 5px;
+    border-radius: 0px;
+}
+.user_div .container{
+	padding: 0px;
+	margin: 0px;
+}
+.name_user{
+	margin: 0px;
+	padding-top: 5px;
+	margin-left: 30px;
+}
+.metier_user{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #fff;
+	margin:0px;
+    font-size: 21px;
+    font-weight: 200;
+	padding-left: 1px;
+	margin-left: 60px;
+}
+.photo_div{
+}
+.portrait_user{
+padding-top: 15px;
+}
+.portrait_user h4{
+	padding-top: 15px;
+	max-height: 350px;
+}
+.nbre-article,.nbre-lecteur{
+	margin-right: 5px;
+}
+.suivre{
+	margin: 5px;
+}
+#nbre-articles,#nbre-abonner{
+	cursor: pointer;
+
+}
+#nbre-articles:hover,#nbre-abonner:hover{
+	cursor: pointer;
+	
+}
+.photo_user{
+	margin-right: 10px;
+	max-width: 350px;
+	max-height: 350px;
+}
+<!--connrxion --!>
+em{
+
+}
+.autre-compte{
+	margin: 5px;
+}
+.autre-compte button{
+	margin: 5px;
+	width: 100%;
+}
+footer{
+	padding: 10px;
+}
+.profil_auteur{
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
+//validation
+b{
+
+}
+#validation-panel{
+	padding-bottom: : 150px;
+}
+//liste rubrique
+b{
+	
+}
+.rubrique{
+font-weight: 900;
+    margin: 5px;
+    padding-top: 10px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-top: 5px solid #337ab7;
+    height: 150px;
+    background: #eee;	
+}
+.rubrique:hover{
+	background: #337ab7;
+	color: #fff;
+	text-decoration: none;
+}

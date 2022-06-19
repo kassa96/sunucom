@@ -1,0 +1,111 @@
+fieldset{
+    margin-top: 1em;
+    border-radius: 4px 4px 0 0;
+    border: #aaa solid 1px;
+    padding: 1.5em;
+    background: #eee;
+    text-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+ legend {
+ 	margin-bottom: 1px;
+ 	width: auto;
+    font-weight: bold;
+    color: #444;
+    padding: 5px 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    -moz-box-shadow: 3px 3px 15px #bbb;
+    -webkit-box-shadow: 3px 3px 15px #bbb;
+    box-shadow: 3px 3px 15px #bbb;
+    max-width: 100%;
+}
+
+#panel-info h4{
+	padding: 5px;
+	text-align: center;
+}
+#panel-error{
+}
+#editeur{
+     background-color: #fff;
+     color: #202124;
+     font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+     -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+     text-size-adjust: 100%; 
+     border: 1px solid #202124;
+     min-height: 200px;
+}
+.btn{
+    font: 400 16px/24px Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;     
+}
+@media (min-width: 768px)
+{
+#search{
+   width: 200px;
+   text-align: center;
+}
+}
+footer{
+    margin-top: 250px;
+    background: #222222;
+    color: #fff;
+}
+
+form{
+    padding-bottom: 30px;
+}
+
+#panel-info h4{
+    padding: 5px;
+    text-align: center;
+}
+#panel-error{
+}
+
+@media screen and (min-width: 768px)
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 1px;
+    padding-left: 1px;
+    }
+    .container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 5px;
+    border-radius: 0px;
+}
+
+#editeur:focus{
+border: 1px solid #202124;
+}
+#couverture-label,#video-label{
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    font-family: Roboto,Noto,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .01em;
+    line-height: 1;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-transform: none;
+    display: inline-block;
+    background-color: #4285f4;
+    border-radius: 3px!important;
+    margin: 5px;
+}
+#couverture-label:hover,#video-label:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #286090;
+    border-color: #204d74;
+}
+#photo-couverture,#new-video{
+    width: 100%;
+}
